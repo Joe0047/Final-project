@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/nav_before_danger"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_before_danger_way1"
+                android:icon="@android:drawable/ic_menu_mylocation"
+                android:title="@string/nav_before_danger_way1"
+                />
+            <!--<item-->
+                <!--android:id="@+id/nav_before_danger_way2"-->
+                <!--android:icon="@android:drawable/ic_menu_info_details"-->
+                <!--android:title="@string/nav_before_danger_way2"-->
+                <!--/>-->
+        </menu>
+    </item>
+<item
+android:title="@string/nav_when_danger"
+    >
+<menu>
+    <item
+        android:id="@+id/nav_when_danger_way1"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="@string/nav_when_danger_way1"
+        />
+    <item
+        android:id="@+id/nav_when_danger_way2"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/nav_when_danger_way2"
+        />
+</menu>
+</item>
+    <!--<item-->
+        <!--android:title="@string/nav_after_danger"-->
+        <!--&gt;-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_after_danger_way1"-->
+                <!--android:icon="@android:drawable/ic_menu_set_as"-->
+                <!--android:title="@string/nav_after_danger_way1"-->
+                <!--/>-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

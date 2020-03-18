@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/start"
+    android:layout_height="match_parent"
+    tools:context=".Userinformation.StartActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stand_By"
+        android:textColor="#4e342e"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@color/secondaryColor"
+        android:shape="rectangle"
+        android:text="登入"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/secondaryColor"
+        android:text="註冊"
+        android:textColor="#fff" />
+
+</LinearLayout>

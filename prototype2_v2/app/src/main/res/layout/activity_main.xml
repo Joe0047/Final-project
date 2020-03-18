@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_main" />
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.example.prototype2.Marker.MovableFloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="bottom|end"
+                android:src="@android:drawable/ic_menu_call"
+                app:backgroundTint="#e0FFFFFF"
+                app:elevation="6dp"
+                app:fabSize="mini"
+                app:layout_anchor="@+id/linearLayout"
+                app:layout_anchorGravity="right|center"
+                app:pressedTranslationZ="12dp"
+                app:rippleColor="#33728dff" />
+
+            <com.example.prototype2.Marker.MovableFloatingActionButton
+                android:id="@+id/movableFloatingActionButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="160dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:clickable="true"
+                app:fabCustomSize="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/alarm" />
+
+            <com.example.prototype2.Marker.MovableFloatingActionButton
+                android:id="@+id/voice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="bottom|center"
+                android:src="@android:drawable/ic_btn_speak_now"
+                app:backgroundTint="#e000ffff"
+                app:elevation="6dp"
+                app:fabSize="mini"
+                app:layout_anchor="@+id/linearLayout"
+                app:layout_anchorGravity="right|center"
+                app:pressedTranslationZ="12dp"
+                app:rippleColor="#33728dff" />
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </android.support.constraint.ConstraintLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/menu_nav">
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

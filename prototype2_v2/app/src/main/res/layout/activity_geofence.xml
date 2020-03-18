@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.prototype2.Geofence.GeofenceActivity">
+
+    <!--<Button-->
+        <!--android:id="@+id/buttonPlace"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="230dp"-->
+        <!--android:layout_marginBottom="450dp"-->
+        <!--android:text="Place" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textArea"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/imageButton2"-->
+        <!--android:layout_marginStart="44dp"-->
+        <!--android:layout_marginTop="-386dp"-->
+        <!--android:layout_marginBottom="360dp"-->
+        <!--android:text="請設定範圍（公尺）" />-->
+
+
+
+
+
+    <!--<Button-->
+        <!--android:id="@+id/button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="150dp"-->
+        <!--android:layout_marginBottom="250dp"-->
+        <!--android:text="set_alarm" />-->
+
+
+    <!--<Button-->
+        <!--android:id="@+id/setArea"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="288dp"-->
+        <!--android:layout_marginBottom="360dp"-->
+        <!--android:text="Area" />-->
+
+    <!--android:layout_alignEnd="@+id/step3"-->
+    <!--android:layout_alignBottom="@+id/step3"-->
+    <!--android:layout_marginEnd="59dp"-->
+    <!--android:layout_marginBottom="63dp"-->
+    <!--<Button-->
+        <!--android:id="@+id/button2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="228dp"-->
+        <!--android:layout_marginBottom="184dp"-->
+        <!--android:text="SET_ALARM" />-->
+
+
+
+    <ImageView
+        android:id="@+id/step1"
+        android:layout_width="360px"
+        android:layout_height="420px"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/steptest2" />
+    <TextView
+        android:id="@+id/placetext"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/step1"
+        android:layout_alignBottom="@+id/step1"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="90dp"
+        android:text="請設定地點" />
+
+    <ImageView
+        android:id="@+id/step2"
+        android:layout_width="360px"
+        android:layout_height="420px"
+        android:src="@drawable/steptest1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200px"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/step2"
+        android:layout_alignBottom="@+id/step2"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="90dp"
+        android:text="請設定預計到達時間" />
+
+    <ImageView
+        android:id="@+id/step3"
+        android:layout_width="360px"
+        android:layout_height="420px"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="200px"
+        android:src="@drawable/steptest2" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/step3"
+        android:layout_alignBottom="@+id/step3"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="90dp"
+        android:text="請設定預計離開時間" />
+    <ImageView
+        android:id="@+id/step4"
+        android:layout_width="360px"
+        android:layout_height="420px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/steptest1" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/step4"
+        android:layout_alignBottom="@+id/step4"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="90dp"
+        android:text="請設定範圍" />
+    <EditText
+        android:id="@+id/editArea"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/step4"
+        android:layout_alignBottom="@+id/step4"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="80dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="116dp"
+        android:layout_height="110dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/step1"
+        android:src="@drawable/setwhere1" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="116dp"
+        android:layout_height="110dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@+id/step4"
+        android:src="@drawable/setrange1" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="116dp"
+        android:layout_height="110dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/step3"
+        android:src="@drawable/setleavetime1" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="116dp"
+        android:layout_height="110dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@+id/step2"
+        android:src="@drawable/setarrivetime1" />
+
+    <!--<Button-->
+        <!--android:id="@+id/check"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginStart="28dp"-->
+        <!--android:layout_marginTop="149dp"-->
+        <!--android:background="@color/primaryColor"-->
+        <!--android:radius="61dp"-->
+        <!--android:scaleType="centerInside"-->
+        <!--android:text="設定"-->
+        <!--android:textColor="#fff" />-->
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="116dp"
+        android:layout_height="110dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/outdoorred" />
+
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#64DAE3</item>
+        <item name="colorPrimaryDark">#b3ecff</item>
+        <item name="colorAccent">#F2BCF8</item>
+        <item name="android:navigationBarColor">#b3ecff</item>
+    </style>
+    <!--style.xml string.xml條app name HomePage.java count條一  圖片新增 Mainactivity返回設定 card_view.xml加背景 新增color.xml-->
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="MenuStyle" parent="Theme.AppCompat.Light">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.navigation">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+</resources>

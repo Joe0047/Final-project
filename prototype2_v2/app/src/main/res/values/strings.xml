@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">StandBy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_alert_map">Map</string>
+    <string name="user_name">spot@catchat.com</string>
+    <string name="nav_inbox">Mesagez</string>
+    <string name="nav_drafts">Draftz</string>
+    <string name="nav_sent">Sent mesagez</string>
+    <string name="nav_trash">In da trash</string>
+    <string name="nav_support">Support</string>
+    <string name="nav_help">聯絡人聊天室</string>
+    <string name="nav_feedback">Giv us feedback</string>
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
+    <string name="nav_before_danger">預防行為</string>
+    <string name="nav_before_danger_way1">地圖圍欄</string>
+    <string name="nav_before_danger_way2">危險程度分析</string>
+    <string name="nav_when_danger">應變行為</string>
+    <string name="nav_when_danger_way1">救援地圖標記</string>
+    <string name="nav_when_danger_way2">信賴聯絡人狀態</string>
+    <string name="nav_after_danger">救援</string>
+    <string name="nav_after_danger_way1">語音偵測</string>
+    <string name="title_activity_marker">Map</string>
+    <string name="marker_title_chungcheng">中正大學警衛室</string>
+    <string name="marker_title_seven11">7-11</string>
+    <string name="marker_title_family">全家</string>
+    <string name="marker_title_phone" >緊急電話亭</string>
+    <string name="marker_title_AED" >AED</string>
+    <string name="title_activity_maps">Marker</string>
+</resources>
